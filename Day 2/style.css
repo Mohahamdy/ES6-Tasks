@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+button {
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #2ea44f;
+    border-color: #1b1f2326;    
+    transition: all 0.3s ease;
+    margin: 20px;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+p{
+    margin: 5px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 5px;
+}
